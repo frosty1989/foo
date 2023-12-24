@@ -158,11 +158,49 @@
 
 \maketitle
 
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+% INTRODUCTION
+
+
 \section{Introduction}\label{sec1}
 
-The Introduction section, of referenced text \cite{bib1} expands on the background of the work (some overlap with the Abstract is acceptable). The introduction should not include subheadings.
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%
+% INTRODUCTION - HISTORY
 
-Springer Nature does not impose a strict layout as standard however authors are advised to check the individual requirements for the journal they are planning to submit to as there may be journal-level preferences. When preparing your text please also be aware that some stylistic choices are not supported in full text XML (publication version), including coloured font. These will not be replicated in the typeset article if it is accepted.                                                                                                                                         
+Laser shock peening is a surface engineering process that increases metallic components' fatigue strength and life. Laser shock peening induces compressive residual stress up to a depth of 1 mm. Increased hardness and yield strength of metallic materials are linked to the creation of high-density arrays of dislocations \cite{Banas19900301}. The potential of using focused, high-energy laser pulses to generate high-pressure shock waves in metallic materials was first discovered in the USA \cite{White19630701}. The first attempts at applying LSP for a real-world application emerged in the 1970s when researchers at the Battelle Columbus laboratories investigated its application for fastener holes \cite{Clauer2019}. The 1990s saw the first use of LSP in aerospace engineering when it helped to mitigate jet engine blades breaking off as a consequence of Foreign Object Damage \cite{Clauer20160906}.
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%
+% INTRODUCTION - CONFIGURATION
+
+The configuration of an LSP process with a metallic component is shown in Figure~ \ref{fig:lspconfiguration}. An intense pulsed laser shock beam is focused onto a metal surface for a brief period of time (\SIrange{10}{100}{\ns}). The heated zone is vaporised and transformed to plasma by ionization (the temperature of plasma is over \SI{10000}{\degreeCelsius}). The plasma is under high pressure, which propagates through the material via shock waves. Two modes of LSP exist: 
+
+\begin{itemize}
+
+    \item direct ablation mode,
+    \item confined ablation mode.
+
+\end{itemize}
+
+    \begin{figure}[h!]     
+    \centering
+    \includegraphics[width=0.5\textwidth]{lsp_configuration.jpg}
+    \caption{Schematic configuration of laser shock peening process \cite{Fabbro19981201}}
+    \label{fig:lspconfiguration}
+    \end{figure}
+
+The direct ablation mode refers to the interaction of plasma with metal without coating and confinement \cite{Ding2006}. Plasma pressure of tenths of a \SI{}{\GPa} is achieved using direct ablation mode. Higher pressures of \SIrange{1}{5}{\GPa} can be obtained using the confined mode. The confined ablation mode is known not only to increase the peak pressure of plasma by a factor up to ten, but also increases the duration of plasma by a factor of three in comparison with the direct ablation mode. In the confined mode, the metal surface is usually coated with an opaque material such as black paint or aluminium foil and confined by a material transparent to the laser radiation such as water or borosilicate glass. A stronger pressure pulse results in a higher magnitude of compressive residual stresses at a deeper depth \cite{Fairand19741015}. 
+
+
+
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
@@ -218,7 +256,7 @@ Springer Nature does not impose a strict layout as standard however authors are 
     %%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%
-    % LASER INTENSITY PROFILE NEARFIELD
+    % FIGURE LASER INTENSITY PROFILE NEARFIELD
 
     \begin{figure}[h!]     
     \centering
@@ -230,7 +268,7 @@ Springer Nature does not impose a strict layout as standard however authors are 
     %%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%
-    % LASER TEMPORAL PROFILE
+    % FIGURE LASER TEMPORAL PROFILE
 
     \begin{figure}[h!]     
     \centering
@@ -251,7 +289,7 @@ Springer Nature does not impose a strict layout as standard however authors are 
     %%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%
-    % OPTICAL SETUP SCHEMATICS
+    % FIGURE OPTICAL SETUP SCHEMATICS
 
     \begin{figure}[h]     
     \centering
@@ -320,7 +358,8 @@ Springer Nature does not impose a strict layout as standard however authors are 
     %%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%
-    % LSP PATTERN CREATION
+    % FIGURE LSP PATTERN CREATION
+
 
     \begin{figure}[h!]     
     \centering
@@ -346,7 +385,24 @@ Springer Nature does not impose a strict layout as standard however authors are 
 
 
     \subsection{Residual stress}
+
+    The compressive residual stresses were improved over baseline (\SI[]{8.15}{\mega\pascal}) with maximum values of \SI[]{-158}{\mega\pascal} for Patch A and \SI[]{-65}{\mega\pascal} for Patch B. The depth residual stresses reached \SI[]{0.45}{\mm} for Patch A and \SI[]{0.4}{\mm} for Patch B (Fig. \ref{fig:residual_stress})
+    
     On comparing residual stresses in Patch A and Patch B, it has been observed that Patch A \mbox{(before laser-induced breakdown)} parameters have enabled deeper compressive residual stresses (i.e. \SI[]{-158}{\mega\pascal}) as compared to Patch B (after laser-induced breakdown) parameters (i.e. \SI[]{-65}{\mega\pascal}) near the peening surface region. This decrease in residual stresses is caused by laser-induced breakdown. 
+
+    %%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%
+    % FIGURE RESULTS - RESIDUAL STRESS
+
+    \begin{figure}[h!]     
+    \centering
+    \includegraphics[width=0.75\textwidth]{residual_stress_depth.png}
+    \caption{Laser shock peening pattern creation methodology}
+    \label{fig:residual_stress}
+    \end{figure}
+
+    
 
 
 %%%%%%%%%%%%%%%%%%%%
